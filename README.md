@@ -269,26 +269,26 @@ Os prints abaixo mostram o fluxo configurado e o resultado da execução. Todos 
 
 | # | Registro | Descrição |
 |---|---|---|
-| 1 | ![Gatilho](prints/fluxo-completo1.png) | Visão geral do fluxo no Workspace Studio, com os quatro passos em sequência |
-| 2 | ![Gatilho](prints/gatilho.png) | Gatilho de agendamento: frequência semanal, dia, horário e fuso |
-| 3 | ![Leitura da planilha](prints/leitura-planilha.png) | Passo do Sheets apontando para a planilha do funil e a aba `Resumo_IA` |
-| 4 | ![Prompt](prints/prompt-gemini.png) | Passo Ask Gemini com o prompt e a variável inserida pelo menu *+ Variáveis* |
-| 5 | ![E-mail](prints/config-email.png) | Passo do Gmail: assunto, mensagem com a resposta do Gemini e fecho fixo |
-| 6 | ![Aprovação](prints/aprovacao.png) | Tela de aprovação exibida na execução |
-| 7 | ![Resultado do teste](prints/resultado-teste.png) | Resultado do teste: passos concluídos com sucesso |
-| 8 | ![E-mail v1](prints/email-v1.png) | E-mail recebido no primeiro teste (com a falha de novos leads) |
-| 9 | ![E-mail final](prints/email-final.png) | E-mail recebido na versão final do Studio |
-| 10 | ![Resumo_IA](prints/aba-resumo-ia.png) | Aba `Resumo_IA` com os indicadores que alimentam o fluxo |
-| 11 | ![Fluxo ativado](prints/fluxo-ativado.png) | Fluxo ativado |
+| 1 | ![Gatilho](prints/fluxo-completo1.PNG) | Visão geral do fluxo no Workspace Studio, com os quatro passos em sequência |
+| 2 | ![Gatilho](prints/gatilho.PNG) | Gatilho de agendamento: frequência semanal, dia, horário e fuso |
+| 3 | ![Leitura da planilha](prints/leitura-planilha.PNG) | Passo do Sheets apontando para a planilha do funil e a aba `Resumo_IA` |
+| 4 | ![Prompt](prints/prompt-gemini.PNG) | Passo Ask Gemini com o prompt e a variável inserida pelo menu *+ Variáveis* |
+| 5 | ![E-mail](prints/config-email.PNG) | Passo do Gmail: assunto, mensagem com a resposta do Gemini e fecho fixo |
+| 6 | ![Aprovação](prints/aprovacao.PNG) | Tela de aprovação exibida na execução |
+| 7 | ![Resultado do teste](prints/resultado-teste.PNG) | Resultado do teste: passos concluídos com sucesso |
+| 8 | ![E-mail v1](prints/email-v1.PNG) | E-mail recebido no primeiro teste (com a falha de novos leads) |
+| 9 | ![E-mail final](prints/email-final.PNG) | E-mail recebido na versão final do Studio |
+| 10 | ![Resumo_IA](prints/aba-resumo-ia.PNG) | Aba `Resumo_IA` com os indicadores que alimentam o fluxo |
+| 11 | ![Fluxo ativado](prints/fluxo-ativado.PNG) | Fluxo ativado |
 
 ### 7.2 Versão 2: Apps Script
 
 | # | Registro | Descrição |
 |---|---|---|
-| 12 | ![Log de execução com erro 503](prints/appsscript-log-erro-503.png) | Registro de execução do Apps Script mostrando o erro 503 (`UNAVAILABLE`) devolvido pelo Gemini, em `chamarGemini_` |
-| 13 | ![Chave de API no AI Studio](prints/ai-studio-chave-api.png) | Tela do Google AI Studio onde a chave de API é criada (chave ocultada) |
-| 14 | ![Log da API com erro 503](prints/ai-studio-log-api-erro-503.png) | Log de requisições da API no AI Studio, com a mesma falha 503 registrada |
-| 15 | ![Execução bem-sucedida](prints/appsscript-execucao-sucesso.png) | Registro de execução concluída após a correção  |
+| 12 | ![Log de execução com erro 503](prints/appsscript-log-erro-503.PNG) | Registro de execução do Apps Script mostrando o erro 503 (`UNAVAILABLE`) devolvido pelo Gemini, em `chamarGemini_` |
+| 13 | ![Chave de API no AI Studio](prints/ai-studio-chave-api.PNG) | Tela do Google AI Studio onde a chave de API é criada (chave ocultada) |
+| 14 | ![Log da API com erro 503](prints/ai-studio-log-api-erro-503.PNG) | Log de requisições da API no AI Studio, com a mesma falha 503 registrada |
+| 15 | ![Execução bem-sucedida](prints/appsscript-execucao-sucesso.PNG) | Registro de execução concluída após a correção  |
 
 ---
 
